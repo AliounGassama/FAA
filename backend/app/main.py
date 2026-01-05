@@ -10,10 +10,10 @@ def health():
 def endpoint():
     return {"name": "FAA","status": "running"}
 
-transactions = {"date": "08/31", "amount": 1000, "name": "rent"}
-@app.get("/transaction")
-def transaction():
-    return transactions
+transaction = {"date": "08/31", "amount": 1000, "description": "rent"}
+@app.get("/transactions")
+def transactions():
+    return transaction
 
 @app.get("/version")
 def version():
