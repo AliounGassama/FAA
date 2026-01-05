@@ -1,3 +1,5 @@
+# Database session management
+
 from sqlmodel import SQLModel, create_engine, Session
 
 DATABASE_URL = "sqlite:///./faa.db"

@@ -4,5 +4,4 @@ __pycache__/
 .env
 *.db
 *.sqlite
-data/
 .python-version
